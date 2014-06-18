@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06015C7519519C8F0013C9FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06015C7419519C8F0013C9FF /* Foundation.framework */; };
+		06015C7719519C8F0013C9FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06015C7619519C8F0013C9FF /* CoreGraphics.framework */; };
+		06015C7919519C8F0013C9FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06015C7819519C8F0013C9FF /* UIKit.framework */; };
+		06015C7F19519C8F0013C9FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06015C7D19519C8F0013C9FF /* InfoPlist.strings */; };
+		06015C8119519C8F0013C9FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06015C8019519C8F0013C9FF /* main.m */; };
+		06015C8519519C8F0013C9FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06015C8419519C8F0013C9FF /* AppDelegate.m */; };
+		06015C8819519C8F0013C9FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06015C8619519C8F0013C9FF /* Main.storyboard */; };
+		06015C8B19519C8F0013C9FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06015C8A19519C8F0013C9FF /* ViewController.m */; };
+		06015C8D19519C8F0013C9FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06015C8C19519C8F0013C9FF /* Images.xcassets */; };
+		06015C9419519C8F0013C9FF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06015C9319519C8F0013C9FF /* XCTest.framework */; };
+		06015C9519519C8F0013C9FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06015C7419519C8F0013C9FF /* Foundation.framework */; };
+		06015C9619519C8F0013C9FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06015C7819519C8F0013C9FF /* UIKit.framework */; };
+		06015C9E19519C8F0013C9FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06015C9C19519C8F0013C9FF /* InfoPlist.strings */; };
+		06015CA019519C8F0013C9FF /* CTR_AESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06015C9F19519C8F0013C9FF /* CTR_AESTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06015C9719519C8F0013C9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06015C6919519C8F0013C9FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06015C7019519C8F0013C9FF;
+			remoteInfo = "CTR-AES";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06015C7119519C8F0013C9FF /* CTR-AES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CTR-AES.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06015C7419519C8F0013C9FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06015C7619519C8F0013C9FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06015C7819519C8F0013C9FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06015C7C19519C8F0013C9FF /* CTR-AES-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTR-AES-Info.plist"; sourceTree = "<group>"; };
+		06015C7E19519C8F0013C9FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06015C8019519C8F0013C9FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06015C8219519C8F0013C9FF /* CTR-AES-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTR-AES-Prefix.pch"; sourceTree = "<group>"; };
+		06015C8319519C8F0013C9FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06015C8419519C8F0013C9FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06015C8719519C8F0013C9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06015C8919519C8F0013C9FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06015C8A19519C8F0013C9FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06015C8C19519C8F0013C9FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		06015C9219519C8F0013C9FF /* CTR-AESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CTR-AESTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06015C9319519C8F0013C9FF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		06015C9B19519C8F0013C9FF /* CTR-AESTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTR-AESTests-Info.plist"; sourceTree = "<group>"; };
+		06015C9D19519C8F0013C9FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06015C9F19519C8F0013C9FF /* CTR_AESTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTR_AESTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06015C6E19519C8F0013C9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06015C7719519C8F0013C9FF /* CoreGraphics.framework in Frameworks */,
+				06015C7919519C8F0013C9FF /* UIKit.framework in Frameworks */,
+				06015C7519519C8F0013C9FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06015C8F19519C8F0013C9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06015C9419519C8F0013C9FF /* XCTest.framework in Frameworks */,
+				06015C9619519C8F0013C9FF /* UIKit.framework in Frameworks */,
+				06015C9519519C8F0013C9FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06015C6819519C8F0013C9FF = {
+			isa = PBXGroup;
+			children = (
+				06015C7A19519C8F0013C9FF /* CTR-AES */,
+				06015C9919519C8F0013C9FF /* CTR-AESTests */,
+				06015C7319519C8F0013C9FF /* Frameworks */,
+				06015C7219519C8F0013C9FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06015C7219519C8F0013C9FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06015C7119519C8F0013C9FF /* CTR-AES.app */,
+				06015C9219519C8F0013C9FF /* CTR-AESTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06015C7319519C8F0013C9FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06015C7419519C8F0013C9FF /* Foundation.framework */,
+				06015C7619519C8F0013C9FF /* CoreGraphics.framework */,
+				06015C7819519C8F0013C9FF /* UIKit.framework */,
+				06015C9319519C8F0013C9FF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06015C7A19519C8F0013C9FF /* CTR-AES */ = {
+			isa = PBXGroup;
+			children = (
+				06015C8319519C8F0013C9FF /* AppDelegate.h */,
+				06015C8419519C8F0013C9FF /* AppDelegate.m */,
+				06015C8619519C8F0013C9FF /* Main.storyboard */,
+				06015C8919519C8F0013C9FF /* ViewController.h */,
+				06015C8A19519C8F0013C9FF /* ViewController.m */,
+				06015C8C19519C8F0013C9FF /* Images.xcassets */,
+				06015C7B19519C8F0013C9FF /* Supporting Files */,
+			);
+			path = "CTR-AES";
+			sourceTree = "<group>";
+		};
+		06015C7B19519C8F0013C9FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06015C7C19519C8F0013C9FF /* CTR-AES-Info.plist */,
+				06015C7D19519C8F0013C9FF /* InfoPlist.strings */,
+				06015C8019519C8F0013C9FF /* main.m */,
+				06015C8219519C8F0013C9FF /* CTR-AES-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06015C9919519C8F0013C9FF /* CTR-AESTests */ = {
+			isa = PBXGroup;
+			children = (
+				06015C9F19519C8F0013C9FF /* CTR_AESTests.m */,
+				06015C9A19519C8F0013C9FF /* Supporting Files */,
+			);
+			path = "CTR-AESTests";
+			sourceTree = "<group>";
+		};
+		06015C9A19519C8F0013C9FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06015C9B19519C8F0013C9FF /* CTR-AESTests-Info.plist */,
+				06015C9C19519C8F0013C9FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06015C7019519C8F0013C9FF /* CTR-AES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06015CA319519C8F0013C9FF /* Build configuration list for PBXNativeTarget "CTR-AES" */;
+			buildPhases = (
+				06015C6D19519C8F0013C9FF /* Sources */,
+				06015C6E19519C8F0013C9FF /* Frameworks */,
+				06015C6F19519C8F0013C9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CTR-AES";
+			productName = "CTR-AES";
+			productReference = 06015C7119519C8F0013C9FF /* CTR-AES.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06015C9119519C8F0013C9FF /* CTR-AESTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06015CA619519C8F0013C9FF /* Build configuration list for PBXNativeTarget "CTR-AESTests" */;
+			buildPhases = (
+				06015C8E19519C8F0013C9FF /* Sources */,
+				06015C8F19519C8F0013C9FF /* Frameworks */,
+				06015C9019519C8F0013C9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06015C9819519C8F0013C9FF /* PBXTargetDependency */,
+			);
+			name = "CTR-AESTests";
+			productName = "CTR-AESTests";
+			productReference = 06015C9219519C8F0013C9FF /* CTR-AESTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06015C6919519C8F0013C9FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gabriel Massana";
+				TargetAttributes = {
+					06015C9119519C8F0013C9FF = {
+						TestTargetID = 06015C7019519C8F0013C9FF;
+					};
+				};
+			};
+			buildConfigurationList = 06015C6C19519C8F0013C9FF /* Build configuration list for PBXProject "CTR-AES" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06015C6819519C8F0013C9FF;
+			productRefGroup = 06015C7219519C8F0013C9FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06015C7019519C8F0013C9FF /* CTR-AES */,
+				06015C9119519C8F0013C9FF /* CTR-AESTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06015C6F19519C8F0013C9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06015C8D19519C8F0013C9FF /* Images.xcassets in Resources */,
+				06015C7F19519C8F0013C9FF /* InfoPlist.strings in Resources */,
+				06015C8819519C8F0013C9FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06015C9019519C8F0013C9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06015C9E19519C8F0013C9FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06015C6D19519C8F0013C9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06015C8B19519C8F0013C9FF /* ViewController.m in Sources */,
+				06015C8519519C8F0013C9FF /* AppDelegate.m in Sources */,
+				06015C8119519C8F0013C9FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06015C8E19519C8F0013C9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06015CA019519C8F0013C9FF /* CTR_AESTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06015C9819519C8F0013C9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06015C7019519C8F0013C9FF /* CTR-AES */;
+			targetProxy = 06015C9719519C8F0013C9FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06015C7D19519C8F0013C9FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06015C7E19519C8F0013C9FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06015C8619519C8F0013C9FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06015C8719519C8F0013C9FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06015C9C19519C8F0013C9FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06015C9D19519C8F0013C9FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06015CA119519C8F0013C9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06015CA219519C8F0013C9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06015CA419519C8F0013C9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTR-AES/CTR-AES-Prefix.pch";
+				INFOPLIST_FILE = "CTR-AES/CTR-AES-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06015CA519519C8F0013C9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTR-AES/CTR-AES-Prefix.pch";
+				INFOPLIST_FILE = "CTR-AES/CTR-AES-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		06015CA719519C8F0013C9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CTR-AES.app/CTR-AES";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTR-AES/CTR-AES-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CTR-AESTests/CTR-AESTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		06015CA819519C8F0013C9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CTR-AES.app/CTR-AES";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTR-AES/CTR-AES-Prefix.pch";
+				INFOPLIST_FILE = "CTR-AESTests/CTR-AESTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06015C6C19519C8F0013C9FF /* Build configuration list for PBXProject "CTR-AES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06015CA119519C8F0013C9FF /* Debug */,
+				06015CA219519C8F0013C9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06015CA319519C8F0013C9FF /* Build configuration list for PBXNativeTarget "CTR-AES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06015CA419519C8F0013C9FF /* Debug */,
+				06015CA519519C8F0013C9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06015CA619519C8F0013C9FF /* Build configuration list for PBXNativeTarget "CTR-AESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06015CA719519C8F0013C9FF /* Debug */,
+				06015CA819519C8F0013C9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06015C6919519C8F0013C9FF /* Project object */;
+}
