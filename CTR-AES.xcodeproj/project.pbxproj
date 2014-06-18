@@ -21,6 +21,8 @@
 		06015C9619519C8F0013C9FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06015C7819519C8F0013C9FF /* UIKit.framework */; };
 		06015C9E19519C8F0013C9FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06015C9C19519C8F0013C9FF /* InfoPlist.strings */; };
 		06015CA019519C8F0013C9FF /* CTR_AESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06015C9F19519C8F0013C9FF /* CTR_AESTests.m */; };
+		06015CAA19519CA60013C9FF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06015CA919519CA60013C9FF /* Security.framework */; };
+		06015CAD1951D7F80013C9FF /* GM_AES128_CTR.m in Sources */ = {isa = PBXBuildFile; fileRef = 06015CAC1951D7F80013C9FF /* GM_AES128_CTR.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		06015C9B19519C8F0013C9FF /* CTR-AESTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTR-AESTests-Info.plist"; sourceTree = "<group>"; };
 		06015C9D19519C8F0013C9FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06015C9F19519C8F0013C9FF /* CTR_AESTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTR_AESTests.m; sourceTree = "<group>"; };
+		06015CA919519CA60013C9FF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		06015CAB1951D7F80013C9FF /* GM_AES128_CTR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GM_AES128_CTR.h; sourceTree = "<group>"; };
+		06015CAC1951D7F80013C9FF /* GM_AES128_CTR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GM_AES128_CTR.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06015CAA19519CA60013C9FF /* Security.framework in Frameworks */,
 				06015C7719519C8F0013C9FF /* CoreGraphics.framework in Frameworks */,
 				06015C7919519C8F0013C9FF /* UIKit.framework in Frameworks */,
 				06015C7519519C8F0013C9FF /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		06015C7319519C8F0013C9FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				06015CA919519CA60013C9FF /* Security.framework */,
 				06015C7419519C8F0013C9FF /* Foundation.framework */,
 				06015C7619519C8F0013C9FF /* CoreGraphics.framework */,
 				06015C7819519C8F0013C9FF /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				06015C8619519C8F0013C9FF /* Main.storyboard */,
 				06015C8919519C8F0013C9FF /* ViewController.h */,
 				06015C8A19519C8F0013C9FF /* ViewController.m */,
+				06015CAB1951D7F80013C9FF /* GM_AES128_CTR.h */,
+				06015CAC1951D7F80013C9FF /* GM_AES128_CTR.m */,
 				06015C8C19519C8F0013C9FF /* Images.xcassets */,
 				06015C7B19519C8F0013C9FF /* Supporting Files */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06015C8B19519C8F0013C9FF /* ViewController.m in Sources */,
+				06015CAD1951D7F80013C9FF /* GM_AES128_CTR.m in Sources */,
 				06015C8519519C8F0013C9FF /* AppDelegate.m in Sources */,
 				06015C8119519C8F0013C9FF /* main.m in Sources */,
 			);
