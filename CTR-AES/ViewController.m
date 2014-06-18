@@ -7,9 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <CommonCrypto/CommonCryptor.h>
-#import <CommonCrypto/CommonKeyDerivation.h>
-#import <Security/Security.h>
 
 #import "GM_AES128_CTR.h"
 
@@ -24,12 +21,13 @@
 {
     [super viewDidLoad];
 
-    NSString *key = @"071C535C0B2C12DD58D18E0D661FF3B7";
+    NSString *key = @"1234567890ABCDEFGHIJKLMNOPQRSTUV";
     NSString *stringToEncrypt = @"Gabriel.Massana";
     NSLog(@"   to encrypt ------> %@", stringToEncrypt);
-
     
     NSData* encrypted = [GM_AES128_CTR encryptString:stringToEncrypt withKey:key];
+    
+    NSLog(@"   encrypted DATA --> %@", encrypted);
     
     NSString *decrypted = [GM_AES128_CTR decryptData:encrypted withKey:key];
     
